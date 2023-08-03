@@ -9,13 +9,13 @@ export const metadata: Metadata = {
 		default: "stationservice.kalimero.rocks",
 		template: "%s | stationservice.kalimero.rocks",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Wild at Art ComiXmaker since 1999",
 	openGraph: {
 		title: "stationservice.kalimero.rocks",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
+			"Wild at Art ComiXmaker since 1999",
 		url: "https://stationservice.kalimero.rocks",
-		siteName: "stationservice.kalimero.rocks",
+		siteName: "station-service",
 		images: [
 			{
 				url: "https://stationservice.kalimero.rocks/og.png",
