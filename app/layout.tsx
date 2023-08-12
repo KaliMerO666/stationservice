@@ -6,7 +6,7 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "stationservice.kalimero.rocks",
+		default: "kalimero.rocks",
 		template: "%s | stationservice.kalimero.rocks",
 	},
 	description: "Wild at Art ComiXmaker since 1999",
