@@ -7,18 +7,18 @@ import { Analytics } from "./components/analytics";
 export const metadata: Metadata = {
 	title: {
 		default: "kalimero.rocks",
-		template: "%s | stationservice.kalimero.rocks",
+		template: "%s | stationservice/kalimero.rocks",
 	},
 	description: "Wild at Art ComiXmaker since 1999",
 	openGraph: {
-		title: "stationservice.kalimero.rocks",
+		title: "stationservice/kalimero.rocks",
 		description:
 			"Wild at Art ComiXmaker since 1999",
-		url: "https://stationservice.kalimero.rocks",
+		url: "https://stationservice/kalimero.rocks",
 		siteName: "station-service",
 		images: [
 			{
-				url: "https://stationservice.kalimero.rocks/og.png",
+				url: "https://stationservice/kalimero.rocks/og.png",
 				width: 1920,
 				height: 1080,
 			},
@@ -51,8 +51,8 @@ const inter = Inter({
 });
 
 const calSans = LocalFont({
-	src: "../public/fonts/CalSans-SemiBold.ttf",
-	variable: "--font-calsans",
+	src: "../public/fonts/Alata-Regular.ttf",
+	variable: "--font-alata",
 });
 
 export default function RootLayout({
