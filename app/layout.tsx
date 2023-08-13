@@ -50,8 +50,8 @@ const inter = Inter({
 	variable: "--font-inter",
 });
 
-const calSans = LocalFont({
-	src: "../public/fonts/Alata-Regular.ttf",
+const AccidentalPresidency = LocalFont({
+	src: "../public/fonts/AccidentalPresidency.ttf",
 	variable: "--font-alata",
 });
 
@@ -61,7 +61,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+		<html lang="en" className={[inter.variable, AccidentalPresidency.variable].join(" ")}>
 			<head>
 				<Analytics />
 			</head>
