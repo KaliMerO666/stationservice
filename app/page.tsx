@@ -4,6 +4,10 @@ import Particles from "./components/particles";
 
 const navigation = [
 	{ name: "Projects", href: "/projects" },
+	{ name: "Website", href: "/website" },
+	{ name: "Gallery", href: "/gallery" },
+	{ name: "Blog", href: "/blog" },
+	{ name: "Shop", href: "/shop" },
 	{ name: "Contact", href: "/contact" },
 ];
 
@@ -11,7 +15,7 @@ export default function Home() {
 	return (
 		<div className="flex flex-col items-center justify-center w-screen h-screen overflow-hidden bg-gradient-to-tl from-black via-zinc-600/20 to-black">
 			<nav className="my-16 animate-fade-in">
-				<ul className="flex items-center justify-center gap-4">
+				<ul className="flex items-center justify-center gap-5">
 					{navigation.map((item) => (
 						<Link
 							key={item.href}
@@ -28,7 +32,7 @@ export default function Home() {
 				className="absolute inset-0 -z-10 animate-fade-in"
 				quantity={100}
 			/>
-			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
+			<h1 className="z-10 text-3xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-5xl md:text-8xl whitespace-nowrap bg-clip-text ">
 				www.kalimero.rocks
 			</h1>
 
@@ -60,3 +64,4 @@ export default function Home() {
 		</div>
 	);
 }
+
