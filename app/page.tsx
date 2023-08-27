@@ -6,7 +6,7 @@ const navigation = [
 	{ name: "Projects", href: "/projects" },
 	{ name: "Website", href: "/website" },
 	{ name: "Gallery", href: "/gallery" },
-	{ name: "Blog", href: "/blog" },
+	{ name: "Blog", href: "https://rockghostsrock.digitalpress.blog/blog" },
 	{ name: "Shop", href: "/shop" },
 	{ name: "Contact", href: "/contact" },
 ];
