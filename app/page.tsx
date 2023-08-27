@@ -43,7 +43,7 @@ export default function Home() {
 					 {" "}
 					<Link
 						target="_blank"
-						href="https://sixsexixten.kalimero.rocks"
+						href="https://yamwhatyam.kalimero.rocks"
 						className="underline duration-500 hover:text-zinc-300"
 					>
 						Dessine-Man
