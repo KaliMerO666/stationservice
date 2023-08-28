@@ -63,6 +63,8 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={[inter.variable, AccidentalPresidency.variable].join(" ")}>
 			<head>
+
+<meta name="facebook-domain-verification" content="mflrjujfaieuu4fkxo1zrxb23gulqi" />				
 				<Analytics />
 			</head>
 			<body
