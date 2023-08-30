@@ -52,7 +52,7 @@ const inter = Inter({
 
 const AccidentalPresidency = LocalFont({
 	src: "../public/fonts/AccidentalPresidency.ttf",
-	variable: "--font-alata",
+	variable: "--font-AccidentalPresidency",
 });
 
 export default function RootLayout({
