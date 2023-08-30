@@ -64,26 +64,50 @@ export default function Home() {
 		</div>
 		</section>
 
-		
-		<!-- Footer -->
-			<footer id="footer">
+		"use client";
+import { Github, Mail, Twitter, Facebook, Instagram, Youtube, Coffee } from "lucide-react";
+import Link from "next/link";
+import { Navigation } from "../components/nav";
+import { Card } from "../components/card";
 
-				<!-- Icons -->
-					<ul class="actions">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-pinterest"><span class="label">Pinterest</span></a></li>
-					</ul>
-
-				<!-- Menu -->
-					<ul class="menu">
-						<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
-					</ul>
-
-			</footer>
+const socials = [
+{
+		icon: <Instagram size={20} />,
+		href: "https://instagram.com/kalimero_666",
+		label: "Instagram",
+		handle: "@kalimero_666",
+	},
+	{
+		icon: <Facebook size={20} />,
+		href: "https://facebook.com/kalimerox19",
+		label: "Facebook",
+		handle: "@kalimerox19",
+	},
+	{
+		icon: <Coffee size={20} />,
+		href: "https://ko-fi.com/kalimero666",
+		label: "Ko-Fi",
+		handle: "@kalimero666",
+	},
+	{
+		icon: <Twitter size={20} />,
+		href: "https://twitter.com/kalimero_666_",
+		label: "Twitter",
+		handle: "@kalimero_666_",
+	},
+	{
+		icon: <Mail size={20} />,
+		href: "mailto:kalimero@ik.me",
+		label: "Email",
+		handle: "kalimero@ik.me",
+	},
+	{
+		icon: <Github size={20} />,
+		href: "https://github.com/kalimerO666",
+		label: "Github",
+		handle: "kalimerO666",
+	},
+];
 	);
 }
 
