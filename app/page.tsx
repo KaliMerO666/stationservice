@@ -6,8 +6,8 @@ const navigation = [
 	{ name: "Station-Service", href: "/projects" },
 	{ name: "Yam What Yam", href: "https://yamwhatyam.kalimero.rocks" },
 	{ name: "Picaboo !", href: "https://picaboo.netlify.app" },
-	{ name: "Rock, Ghost", href: "https://rockghostsrock.digitalpress.blog/blog" },
-	{ name: "Shop", href: "https://bookomatic.hstn.me" },
+	{ name: "Rock, Ghost", href: "https://rockghostsrock.digitalpress.blog" },
+	{ name: "Let's Shop", href: "https://bookomatic.hstn.me" },
 	{ name: "Contact", href: "/contact" },
 ];
 
