@@ -4,10 +4,10 @@ import Particles from "./components/particles";
 
 const navigation = [
 	{ name: "Projects", href: "/projects" },
-	{ name: "Website", href: "/website" },
-	{ name: "Gallery", href: "/gallery" },
+	{ name: "Yam What Yam", href: "https://yamwhatyam.kalimero.rocks" },
+	{ name: "Gallery", href: "https://picaboo.netlify.app" },
 	{ name: "Blog", href: "https://rockghostsrock.digitalpress.blog/blog" },
-	{ name: "Shop", href: "/shop" },
+	{ name: "Shop", href: "https://bookomatic.hstn.me" },
 	{ name: "Contact", href: "/contact" },
 ];
 
