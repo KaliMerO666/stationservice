@@ -51,7 +51,7 @@ const inter = Inter({
 });
 
 const Alata = LocalFont({
-	src: "../public/fonts/Alata.ttf",
+	src: "../public/fonts/Alata-Regular.ttf",
 	variable: "--font-alata",
 });
 
