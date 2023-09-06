@@ -1,5 +1,5 @@
 import "../global.css";
-import { Alata } from "@next/font/google";
+import { Inter } from "@next/font/google";
 import LocalFont from "@next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
@@ -7,18 +7,18 @@ import { Analytics } from "./components/analytics";
 export const metadata: Metadata = {
 	title: {
 		default: "kalimero.rocks",
-		template: "%s | kalimero.rocks",
+		template: "%s | stationservice/kalimero.rocks",
 	},
 	description: "Wild at Art ComiXmaker since 1999",
 	openGraph: {
-		title: "kalimero.rocks",
+		title: "stationservice/kalimero.rocks",
 		description:
 			"Wild at Art ComiXmaker since 1999",
-		url: "https://kalimero.rocks",
+		url: "https://stationservice/kalimero.rocks",
 		siteName: "station-service",
 		images: [
 			{
-				url: "https://kalimero.rocks/og.png",
+				url: "https://stationservice/kalimero.rocks/og.png",
 				width: 1920,
 				height: 1080,
 			},
@@ -45,14 +45,14 @@ export const metadata: Metadata = {
 		shortcut: "/favicon.png",
 	},
 };
-const Alata = Alata ({
+const inter = Inter({
 	subsets: ["latin"],
 	variable: "--font-inter",
 });
 
 const AccidentalPresidency = LocalFont({
 	src: "../public/fonts/AccidentalPresidency.ttf",
-	variable: "--font-AccidentalPresidency",
+	variable: "--font-alata",
 });
 
 export default function RootLayout({
@@ -63,8 +63,6 @@ export default function RootLayout({
 	return (
 		<html lang="en" className={[inter.variable, AccidentalPresidency.variable].join(" ")}>
 			<head>
-
-<meta name="facebook-domain-verification" content="mflrjujfaieuu4fkxo1zrxb23gulqi" />				
 				<Analytics />
 			</head>
 			<body

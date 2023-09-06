@@ -3,12 +3,12 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
-	{ name: "Welkome", href: "https://station-service.kalimero.rocks" },
-	{ name: "About", href: "https://yamwhatyam.kalimero.rocks" },
-	{ name: "Gallery", href: "https://picaboo.netlify.app" },
-	{ name: "Blog", href: "https://rockghostsrock.digitalpress.blog" },
-	{ name: "Shop", href: "https://bookomatic.hstn.me" },
-	{ name: "Socials", href: "/contact" },
+	{ name: "Projects", href: "/projects" },
+	{ name: "Website", href: "/website" },
+	{ name: "Gallery", href: "/gallery" },
+	{ name: "Blog", href: "/blog" },
+	{ name: "Shop", href: "/shop" },
+	{ name: "Contact", href: "/contact" },
 ];
 
 export default function Home() {
@@ -43,7 +43,7 @@ export default function Home() {
 					 {" "}
 					<Link
 						target="_blank"
-						href="https://yamwhatyam.kalimero.rocks"
+						href="https://sixsexixten.kalimero.rocks"
 						className="underline duration-500 hover:text-zinc-300"
 					>
 						Dessine-Man
@@ -53,16 +53,15 @@ export default function Home() {
 					working on{" "}
 					<Link
 						target="_blank"
-						href="https://nest-in-pace.kalimero.rocks"
+						href="https://johnnyschaerbeek.fanclub.rocks"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						graphic novels
+						Johnny Schaerbeek
 					</Link>{" "}
 					at night.
 				</h2>
 			</div>
 		</div>
-		</section>
 	);
 }
 
