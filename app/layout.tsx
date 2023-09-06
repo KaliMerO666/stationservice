@@ -7,18 +7,18 @@ import { Analytics } from "./components/analytics";
 export const metadata: Metadata = {
 	title: {
 		default: "kalimero.rocks",
-		template: "%s | stationservice/kalimero.rocks",
+		template: "%s | kalimero.rocks",
 	},
 	description: "Wild at Art ComiXmaker since 1999",
 	openGraph: {
-		title: "stationservice/kalimero.rocks",
+		title: "kalimero.rocks",
 		description:
 			"Wild at Art ComiXmaker since 1999",
-		url: "https://stationservice/kalimero.rocks",
+		url: "https://kalimero.rocks",
 		siteName: "station-service",
 		images: [
 			{
-				url: "https://stationservice/kalimero.rocks/og.png",
+				url: "https://kalimero.rocks/og.png",
 				width: 1920,
 				height: 1080,
 			},
