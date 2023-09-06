@@ -61,7 +61,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" className={[inter.variable, AccidentalPresidency.variable].join(" ")}>
+		<html lang="en" className={[inter.variable, Alata.variable].join(" ")}>
 			<head>
 				<Analytics />
 			</head>
