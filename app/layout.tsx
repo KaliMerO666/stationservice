@@ -4,6 +4,7 @@ import LocalFont from "@next/font/local";
 import { Metadata } from "next";
 import { Analytics } from "./components/analytics";
 
+
 export const metadata: Metadata = {
 	title: {
 		default: "kalimero.rocks",
@@ -50,9 +51,9 @@ const inter = Inter({
 	variable: "--font-inter",
 });
 
-const Alata = LocalFont({
-	src: "../public/fonts/Alata-Regular.ttf",
-	variable: "--font-alata",
+const calSans = LocalFont({
+	src: "../public/fonts/CalSans-SemiBold.ttf",
+	variable: "--font-calsans",
 });
 
 export default function RootLayout({
@@ -61,7 +62,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="en" className={[inter.variable, Alata.variable].join(" ")}>
+		<html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
 			<head>
 				<Analytics />
 			</head>
