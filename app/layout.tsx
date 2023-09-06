@@ -50,8 +50,8 @@ const inter = Inter({
 	variable: "--font-inter",
 });
 
-const AccidentalPresidency = LocalFont({
-	src: "../public/fonts/AccidentalPresidency.ttf",
+const Alata = LocalFont({
+	src: "../public/fonts/Alata.ttf",
 	variable: "--font-alata",
 });
 
