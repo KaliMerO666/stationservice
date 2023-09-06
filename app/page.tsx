@@ -53,10 +53,10 @@ export default function Home() {
 					working on{" "}
 					<Link
 						target="_blank"
-						href="https://johnnyschaerbeek.fanclub.rocks"
+						href="https://nest-in-pace.kalimero.rocks"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						Johnny Schaerbeek
+						graphic novels
 					</Link>{" "}
 					at night.
 				</h2>
