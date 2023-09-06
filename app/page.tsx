@@ -3,12 +3,12 @@ import React from "react";
 import Particles from "./components/particles";
 
 const navigation = [
-	{ name: "Kalimeroland", href: "/projects" },
-	{ name: "Welkom'", href: "/website" },
-	{ name: "Gallery", href: "/gallery" },
-	{ name: "Blog", href: "/blog" },
-	{ name: "Shop", href: "/shop" },
-	{ name: "Socials", href: "/contact" },
+	
+	{ name: "Welkom'", href: "https://station-service.kalimero.rocks" },
+	{ name: "Picaboo", href: "https://picaboo.kalimero.rocks" },
+	{ name: "Rock, Ghost", href: "https://rockghostsrock.digitalpress.blog" },
+	{ name: "Shop", href: "https://bookomatic.hstn.me" },
+	{ name: "About", href: "/contact" },
 ];
 
 export default function Home() {
@@ -39,7 +39,7 @@ export default function Home() {
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 ">
-					Hi, my name is Kalimero, I'm Wild at Art
+					Hi, my name is Kalimero, I'm a Wild at Art
 					 {" "}
 					<Link
 						target="_blank"
